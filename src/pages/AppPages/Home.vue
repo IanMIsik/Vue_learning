@@ -1,27 +1,7 @@
 <template>
   <div class="hello">
     <img alt="Drexel CCI" src="../../assets/drexel-cci.png" />
-    <p>To build and run this app make sure you have the following installed:</p>
-    <ul>
-      <li>
-        <a href="https://nodejs.org/en/" target="_blank" rel="noopener"
-          >NodeJS</a
-        >
-      </li>
-      <li>
-        <a href="https://yarnpkg.com/cli/node" target="_blank" rel="noopener"
-          >yarn</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://www.typescriptlang.org/#installation"
-          target="_blank"
-          rel="noopener"
-          >typescript</a
-        >
-      </li>
-    </ul>
+
     <h5>
       This application is built using the Vue framework with Quasar for UX
       Styling
