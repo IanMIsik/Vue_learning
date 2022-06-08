@@ -6,18 +6,15 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/AppPages/Home.vue') },
+      { path: '/login', component: () => import('pages/AppPages/Login.vue') },
       { path: '/about', component: () => import('pages/AppPages/About.vue') },
-      {
-        path: '/about2',
-        component: () => import('pages/AppPages/AboutModular.vue'),
-      },
       {
         path: '/dynamic',
         component: () => import('pages/AppPages/Dynamic.vue'),
       },
       {
-        path: '/props',
-        component: () => import('pages/AppPages/PropsPage.vue'),
+        path: '/repos',
+        component: () => import('pages/AppPages/repos.vue'),
       },
       {
         path: '/simple_state',

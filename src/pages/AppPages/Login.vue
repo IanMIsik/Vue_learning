@@ -1,6 +1,7 @@
 <template>
   <div class="q-pa-md row items-start">
-    <div class="text-h1 fixed-center">{{ info }}</div>
+    <br />
+    <div class="text-h1 fixed-center">{{ login }}</div>
   </div>
   <!-- About, Background, Course, Publications, Photo-->
 </template>
@@ -9,10 +10,10 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'AboutPageComponent',
+  name: 'LoginPageComponent',
   setup() {
     return {
-      info: 'INFORMATION ABOUT ME',
+      login: 'Login Here',
     };
   },
 });

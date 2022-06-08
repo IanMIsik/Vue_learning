@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md row items-start">
-    <div class="text-h1 fixed-center">{{ info }}</div>
+    <div class="text-h1 fixed-center">{{ repo }}</div>
   </div>
   <!-- About, Background, Course, Publications, Photo-->
 </template>
@@ -9,10 +9,10 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'AboutPageComponent',
+  name: 'ReposPageComponent',
   setup() {
     return {
-      info: 'INFORMATION ABOUT ME',
+      repo: 'repo details go here',
     };
   },
 });

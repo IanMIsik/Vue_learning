@@ -26,65 +26,9 @@
       This application is built using the Vue framework with Quasar for UX
       Styling
     </h5>
-    <h4>Setup Steps</h4>
 
-    <div class="q-pa-md">
-      <q-list bordered separator>
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>Install project tooling</q-item-label>
-            <q-item-label caption>
-              <code> yarn global add @quasar/cli </code>
-            </q-item-label>
-          </q-item-section>
-        </q-item>
+    <h1 class="fixed-center">HOME PAGE GOES HERE</h1>
 
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>Pull the repo from github</q-item-label>
-            <q-item-label caption>
-              <code>
-                git clone
-                https://github.com/ArchitectingSoftware/se577-web-demo.git
-              </code>
-            </q-item-label>
-          </q-item-section>
-        </q-item>
-
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>Prep the project dependencies</q-item-label>
-            <q-item-label caption>
-              <code> yarn install </code>
-            </q-item-label>
-          </q-item-section>
-        </q-item>
-
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>Install JSON Server</q-item-label>
-            <q-item-label caption>
-              <code> yarn global add json-server </code>
-            </q-item-label>
-          </q-item-section>
-        </q-item>
-
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>Prep IDE, If VS Code - add Volar Plugin</q-item-label>
-          </q-item-section>
-        </q-item>
-
-        <q-item clickable v-ripple>
-          <q-item-section>
-            <q-item-label>For the API demo, start the server</q-item-label>
-            <q-item-label caption>
-              <code> yarn quasar dev </code>
-            </q-item-label>
-          </q-item-section>
-        </q-item>
-      </q-list>
-    </div>
     <!--
     <b-list-group>
       <b-list-group-item>Pull the repo from github - <code>git clone https://github.com/ArchitectingSoftware/se575-web-design-vue.git</code></b-list-group-item>
@@ -94,8 +38,6 @@
       <b-list-group-item>For the API demo, start the server - run <code>start-test-server.sh</code> from the <code>/server</code> directory.</b-list-group-item>
     </b-list-group>
     -->
-
-    <h4>HAVE FUN</h4>
   </div>
 </template>
 
